@@ -1,7 +1,8 @@
 window.alert("Hello, world!");
 document.write('Hello, world'); //Putting the value of result into HTML element with 'Hello, World'
-var A = "This is the main JavaScript project";
-document.write(A)
+var A = "Hello";
+var B = "there";
+document.write(A+B)
 document.write("Rob told Ryan, \"Stop! Or I'll fire you!\"<br>\"I quit!\"Ryan responded.");
 document.write("\"Be who you are and say what you feel,"
 + " because those who mind don\'t matter and those who matter don\'t mind.\""

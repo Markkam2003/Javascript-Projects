@@ -1,4 +1,4 @@
-function my_Dictionary() {
+function my_Dictionary() {     
     var Animal = {
         Species:"Dog",
         Color:"Black",
@@ -8,5 +8,5 @@ function my_Dictionary() {
     };
     document.getElementById("Dictionary").innerHTML = Animal.Sound;
     delete Species,
-    document.getElementById("Dictionary").innerHTML = Species;
+    document.getElementById("Dictionary").innerHTML = Species; //This is deleting species in my_Dictionary
 }

@@ -34,3 +34,6 @@ X--;
 document.write(X);
 window.alert(Math.random() * 35);
 Math.abs(-4.3);
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min) ) + min;
+  }

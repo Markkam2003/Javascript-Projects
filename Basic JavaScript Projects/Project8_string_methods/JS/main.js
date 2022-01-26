@@ -11,10 +11,10 @@ function slice_Method(){
     var Section = Sentence.slice(27,33);
     document.getElementById("Slice").innerHTML = Section;
 }
-let text = "Hello World!";
-let result = text.toUpperCase();
-let text = "Mr. Blue has a blue house";
-let position = text.search("Blue");
+let text1 = "Hello World!";
+let result = text1.toUpperCase();
+let text2 = "Mr. Blue has a blue house";
+let position = text2.search("Blue");
 function string_Method() {
     var X =182;
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
@@ -25,5 +25,5 @@ function precision_Method() {
 }
 let num = 5.56789;
 let n = num.toFixed();
-let text = "Hello World!";
-let result = text.valueOf();
+let text3 = "Hello World!";
+let result = text3.valueOf();

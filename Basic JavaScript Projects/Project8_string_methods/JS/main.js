@@ -26,4 +26,4 @@ function precision_Method() {
 let num = 5.56789;
 let n = num.toFixed();
 let text3 = "Hello World!";
-let result = text3.valueOf();
+let result1 = text3.valueOf();
